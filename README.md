@@ -2,12 +2,16 @@
 RapidLinux is "build your own LiveOS" project that has been heavily influenced by the Slax Project (Thanks Tomas M!)
 The goal of RapidLinux is to provide a complete operating system that boots up the *exact* same way every time, no exceptions.
 RapidLinux integrates a Slackware base with an AUFS root filesystem.
-Modules can be added and removed on demand with activate/deactivate.
+Modules can be added/removed on demand with activate/deactivate.
 
-## Prerequisites
+## Pre-Built ISO
 The easiest way to get started is to download and run on the pre-built ISO files.
-RAPIDBUILD.iso and RAPIDWS.iso have all the necessary tools to build a RapidLinux ISO.
-If you want to build this outside RapidLinux, You will need the following:
+* [RAPIDBUILD.iso](ftp://rapidlinux.org/isos/RAPIDBUILD.iso) has no GUI
+* [RAPIDWS.iso](ftp://rapidlinux.org/isos/RAPIDWS.iso) includes a fluxbox DE
+These have all the necessary tools to [re-]build a RapidLinux ISO.
+
+## Using your own distro
+If you want to build this outside RapidLinux, You will need (at least) the following:
 * Any modern linux distro with dev tools
 * xz-utils
 * squashfs-tools
@@ -38,7 +42,6 @@ Make sure you have permission to write to /opt, if you keep the default location
 ## License
 
 MIT License
-
 >  Copyright (c) 2018 Brett Kuskie and RapidLinux contributors
 >
 >  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -60,6 +63,5 @@ MIT License
 >  THE SOFTWARE.
 
 ## Enjoy RapidLinux!
-
 - Brett Kuskie, 2018
 - [RapidLinux contributors](CONTRIBUTORS.md)
