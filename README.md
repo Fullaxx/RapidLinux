@@ -23,6 +23,12 @@ Check out this repository and run rapidlinux_prepare.sh
 By default, it will make a tree in /opt/RL and fill it in with the necessary repositories.
 Make sure you have permission to write to /opt, if you keep the default location.
 
+## Repositories
+* [RapidBuilds](https://github.com/Fullaxx/RapidBuilds) - the build scripts
+* [RapidKernel](https://github.com/Fullaxx/RapidKernel) - the boot files
+* [RapidModules](https://github.com/Fullaxx/RapidModules) - more software
+* [RapidShells](https://github.com/Fullaxx/RapidShells) - the ISO shell
+
 ## File Tree
 ```
 /opt/RL
@@ -42,7 +48,6 @@ Make sure you have permission to write to /opt, if you keep the default location
 * [Linux-Live](https://www.linux-live.org/)
 
 ## License
-
 MIT License
 >  Copyright (c) 2018 Brett Kuskie and RapidLinux contributors
 >
