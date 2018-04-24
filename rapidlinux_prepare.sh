@@ -13,8 +13,8 @@ RLDIR="/opt/RL"
 # |-- RapidModules
 # |-- RapidShells
 # |-- isos
-# `-- packages
-
+# |-- packages
+# `-- output
 
 #if [ `id -u` != "0" ]; then
 #  echo "Got Root?"
