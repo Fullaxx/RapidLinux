@@ -1,14 +1,14 @@
 ## RapidLinux
-RapidLinux is "build your own LiveOS" project that has been heavily influenced by the Slax Project (Thanks Tomas M!)
+RapidLinux is "build your own LiveOS" project that has been heavily influenced by the [Slax](http://www.slax.org/) project.
 The goal of RapidLinux is to provide a complete operating system that boots up the *exact* same way every time, no exceptions.
 RapidLinux integrates a Slackware base with an AUFS root filesystem.
 Modules can be added/removed on demand with activate/deactivate.
 
 ## Pre-Built ISO
-The easiest way to get started is to download and run on the pre-built ISO files.
-* [RAPIDBUILD.iso](ftp://rapidlinux.org/isos/RAPIDBUILD.iso) has no GUI
-* [RAPIDWS.iso](ftp://rapidlinux.org/isos/RAPIDWS.iso) includes a fluxbox DE
-These have all the necessary tools to [re-]build a RapidLinux ISO.
+The easiest way to get started is to download and run on the pre-built ISO files. These have all the necessary tools to [re-]build a RapidLinux project.
+* [RAPIDINSTALL.iso](ftp://rapidlinux.org/isos/RAPIDISNTALL.iso) has just the core module to install grub2 and the module layout
+* [RAPIDBUILD.iso](ftp://rapidlinux.org/isos/RAPIDBUILD.iso) has dev tools, but no GUI
+* [RAPIDWS.iso](ftp://rapidlinux.org/isos/RAPIDWS.iso) includes dev toold and a fluxbox DE
 
 ## Using your own distro
 If you want to build this outside RapidLinux, You will need (at least) the following:
@@ -16,6 +16,7 @@ If you want to build this outside RapidLinux, You will need (at least) the follo
 * xz-utils
 * squashfs-tools
 * mkisofs
+* Virtual Machine software for testing ISOs
 
 ## Installation & Deployment
 Check out this repository and run rapidlinux_prepare.sh
@@ -30,7 +31,8 @@ Make sure you have permission to write to /opt, if you keep the default location
 |-- RapidModules
 |-- RapidShells
 |-- isos
-`-- packages
+|-- packages
+`-- output
 ```
 
 ## More Info
