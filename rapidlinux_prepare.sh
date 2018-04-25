@@ -58,7 +58,7 @@ trymount()
   if mount | grep curlftpfs | grep -q "$1" ; then
     echo "$1 appears to be mounted"
   else
-    curlftpfs "${FTPREPOHOST}/$1" "$1" -o ro,allow_other
+    curlftpfs -r "${FTPREPOHOST}/$1" "$1" -o allow_root
   fi
 }
 
