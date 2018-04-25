@@ -16,11 +16,6 @@ RLDIR="/opt/RL"
 # |-- packages
 # `-- output
 
-#if [ `id -u` != "0" ]; then
-#  echo "Got Root?"
-#  exit 1
-#fi
-
 bail()
 {
   echo "$1"
@@ -63,7 +58,19 @@ trymount()
   if mount | grep curlftpfs | grep -q "$1" ; then
     echo "$1 appears to be mounted"
   else
-    curlftpfs "${FTPREPOHOST}/$1" "$1"
+    curlftpfs "${FTPREPOHOST}/$1" "$1" -o ro,allow_other
+  fi
+}
+
+checkfuseconf()
+{
+  if [ ! -f /etc/fuse.conf ]; then
+    echo "We need user_allow_other to be enabled in /etc/fuse.conf"
+    bail "sudo ./fix_fuse_conf.sh"
+  fi
+  if ! grep -q "user_allow_other" /etc/fuse.conf ; then
+    echo "We need user_allow_other to be enabled in /etc/fuse.conf"
+    bail "sudo ./fix_fuse_conf.sh"
   fi
 }
 
@@ -79,6 +86,7 @@ tryclone "RapidBuilds"
 tryclone "RapidShells"
 tryclone "RapidKernel"
 
+checkfuseconf
 trymount packages
 trymount isos
 
