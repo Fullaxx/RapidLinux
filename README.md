@@ -12,6 +12,7 @@ These have all the necessary tools to [re-]build a RapidLinux project.
 * [RAPIDWS.iso](ftp://rapidlinux.org/isos/RAPIDWS.iso) includes dev tools and a fluxbox DE
 
 ## Using your own distro
+WARNING: This method has not been tested yet! \
 If you want to build this outside RapidLinux, You will need (at least) the following:
 * Any modern linux distro with dev tools
 * xz-utils
