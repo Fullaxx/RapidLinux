@@ -1,11 +1,12 @@
 ## RapidLinux
 RapidLinux is "build your own LiveOS" project that has been heavily influenced by the [Slax](http://www.slax.org/) project.
-The goal of RapidLinux is to provide a complete operating system that boots up the *exact* same way every time, no exceptions.
-RapidLinux integrates a Slackware base with an AUFS root filesystem.
+The goal of RapidLinux is to provide a complete operating system that boots up the *exact* same way every time, no exceptions. \
+RapidLinux integrates a Slackware base with an AUFS root filesystem. \
 Modules can be added/removed on demand with activate/deactivate.
 
 ## Pre-Built ISO
-The easiest way to get started is to download and run on the pre-built ISO files. These have all the necessary tools to [re-]build a RapidLinux project.
+The easiest way to get started is to download and run on the pre-built ISO files. \
+These have all the necessary tools to [re-]build a RapidLinux project.
 * [RAPIDINSTALL.iso](ftp://rapidlinux.org/isos/RAPIDISNTALL.iso) has just the core module to install grub2 and the module layout to a HD
 * [RAPIDBUILD.iso](ftp://rapidlinux.org/isos/RAPIDBUILD.iso) has dev tools, but no GUI
 * [RAPIDWS.iso](ftp://rapidlinux.org/isos/RAPIDWS.iso) includes dev toold and a fluxbox DE
