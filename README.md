@@ -18,7 +18,7 @@ If you want to build this outside RapidLinux, You will need (at least) the follo
 * xz-utils
 * squashfs-tools
 * mkisofs
-* Virtual Machine software for testing ISOs
+* Virtual Machine environment for testing ISOs
 
 ## Installation & Deployment
 Check out this repository and run rapidlinux_prepare.sh
