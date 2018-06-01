@@ -1,8 +1,8 @@
 ## RapidLinux
-RapidLinux is "build your own LiveOS" project that has been heavily influenced by the [Slax](http://www.slax.org/) project.
+RapidLinux is "build your own LiveOS" framework that has been heavily influenced by the [Slax](http://www.slax.org/) project.
 The goal of RapidLinux is to provide a complete operating system that boots up the *exact* same way every time, no exceptions. \
 RapidLinux integrates a Slackware base with an AUFS root filesystem. \
-Modules can be added/removed on demand with activate/deactivate.
+Modules can be added/removed on demand with the activate/deactivate scripts.
 
 ## Pre-Built ISO
 The easiest way to get started is to download and run on the pre-built ISO files. \
@@ -18,7 +18,7 @@ If you want to build this outside RapidLinux, You will need (at least) the follo
 * xz-utils
 * squashfs-tools
 * mkisofs
-* Virtual Machine environment for testing ISOs
+* virtual machine environment for testing ISOs
 
 ## Installation & Deployment
 Check out this repository and run rapidlinux_prepare.sh
