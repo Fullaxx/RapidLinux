@@ -87,8 +87,10 @@ tryclone "RapidShells"
 tryclone "RapidKernel"
 
 checkfuseconf
-trymount packages
 trymount isos
+if [ ! -d /opt/RL/packages/acpi ]; then
+  trymount packages
+fi
 
 echo
 echo "RapidLinux is ready"
