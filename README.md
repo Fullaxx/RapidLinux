@@ -10,6 +10,8 @@ These have all the necessary tools to [re-]build a RapidLinux project.
 * [RAPIDINSTALL.iso](http://rapidlinux.org/isos.html) has just the core module to install grub2 and the module layout to a HD
 * [RAPIDBUILD.iso](http://rapidlinux.org/isos.html) has dev tools, but no GUI
 * [RAPIDWS.iso](http://rapidlinux.org/isos.html) includes dev tools and a fluxbox DE
+* [RAPIDFS.iso](http://rapidlinux.org/isos.html) is a ~180MB image with samba and file-sharing tools
+* [RAPIDDOCKER.iso](http://rapidlinux.org/isos.html) is a ~275MB image with docker and docker-compose
 
 ## Using your own distro
 WARNING: This method has not been tested yet! \
