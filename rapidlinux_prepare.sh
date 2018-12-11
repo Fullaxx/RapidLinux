@@ -11,7 +11,6 @@ RLDIR="/opt/RL"
 # |-- RapidBuilds
 # |-- RapidKernel
 # |-- RapidModules
-# |-- RapidShells
 # |-- isos
 # |-- packages
 # `-- output
@@ -83,7 +82,6 @@ cd ${RLDIR}
 
 tryclone "RapidModules"
 tryclone "RapidBuilds"
-tryclone "RapidShells"
 tryclone "RapidKernel"
 
 checkfuseconf
