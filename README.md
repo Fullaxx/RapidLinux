@@ -7,11 +7,11 @@ Modules can be added/removed on demand with the activate/deactivate scripts.
 ## Pre-Built ISO
 The easiest way to get started is to download and run on the pre-built ISO files. \
 These have all the necessary tools to [re-]build a RapidLinux project.
-* [RAPIDINSTALL.iso](http://rapidlinux.org/isos.html) has just the core module to install grub2 and the module layout to a HD
-* [RAPIDBUILD.iso](http://rapidlinux.org/isos.html) has dev tools, but no GUI
-* [RAPIDWS.iso](http://rapidlinux.org/isos.html) is a ~400MB image with dev tools and a fluxbox DE
-* [RAPIDFS.iso](http://rapidlinux.org/isos.html) is a ~180MB image with samba and file-sharing tools
-* [RAPIDDOCKER.iso](http://rapidlinux.org/isos.html) is a ~275MB image with docker and docker-compose
+* [RAPIDINSTALL.iso](http://192.99.8.126/isos.html) has just the core module to install grub2 and the module layout to a HD
+* [RAPIDBUILD.iso](http://192.99.8.126/isos.html) has dev tools, but no GUI
+* [RAPIDWS.iso](http://192.99.8.126/isos.html) is a ~400MB image with dev tools and a fluxbox DE
+* [RAPIDFS.iso](http://192.99.8.126/isos.html) is a ~180MB image with samba and file-sharing tools
+* [RAPIDDOCKER.iso](http://192.99.8.126/isos.html) is a ~275MB image with docker and docker-compose
 
 ## Using your own distro
 WARNING: This method has not been tested yet! \
