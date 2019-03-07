@@ -9,7 +9,6 @@ RLDIR="/opt/RL"
 # It will look like this:
 # /opt/RL
 # |-- RapidBuilds
-# |-- RapidKernel
 # |-- RapidModules
 # |-- isos
 # |-- packages
@@ -82,7 +81,6 @@ cd ${RLDIR}
 
 tryclone "RapidModules"
 tryclone "RapidBuilds"
-tryclone "RapidKernel"
 
 checkfuseconf
 trymount isos

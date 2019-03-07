@@ -29,17 +29,14 @@ Make sure you have permission to write to /opt, if you keep the default location
 
 ## Repositories
 * [RapidBuilds](https://github.com/Fullaxx/RapidBuilds) - the build scripts
-* [RapidKernel](https://github.com/Fullaxx/RapidKernel) - the boot files
 * [RapidModules](https://github.com/Fullaxx/RapidModules) - more software
-* [RapidShells](https://github.com/Fullaxx/RapidShells) - the ISO shell
+* [RapidKernel](https://github.com/Fullaxx/RapidKernel) - scripts to compile the kernel
 
 ## File Tree
 ```
 /opt/RL
 |-- RapidBuilds
-|-- RapidKernel
 |-- RapidModules
-|-- RapidShells
 |-- isos
 |-- packages
 `-- output
