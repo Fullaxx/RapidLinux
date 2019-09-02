@@ -17,20 +17,22 @@ These have all the necessary tools to [re-]build a RapidLinux project.
 WARNING: This method has not been tested yet! \
 If you want to build this outside RapidLinux, You will need (at least) the following:
 * Any modern linux distro with dev tools
-* xz-utils
-* squashfs-tools
-* mkisofs
-* virtual machine environment for testing ISOs
+* xz-utils and squashfs-tools for creating modules
+* mkisofs for creating ISOs
+* VM for testing ISOs (I prefer VirtualBox)
+* cdrecord/brasero/k3b for burning ISOs
 
 ## Installation & Deployment
 Check out this repository and run rapidlinux_prepare.sh
 By default, it will make a tree in /opt/RL and fill it in with the necessary repositories.
 Make sure you have permission to write to /opt, if you keep the default location.
+When pulling software packages over curlftpfs, it might be slow.
+You can speed this up by using rsync (or similar) to download packages and make them local
 
 ## Repositories
-* [RapidBuilds](https://github.com/Fullaxx/RapidBuilds) - the build scripts
-* [RapidModules](https://github.com/Fullaxx/RapidModules) - more software
-* [RapidKernel](https://github.com/Fullaxx/RapidKernel) - scripts to compile the kernel
+* [RapidBuilds](https://github.com/Fullaxx/RapidBuilds) - Build scripts for the LiveCD
+* [RapidModules](https://github.com/Fullaxx/RapidModules) - Build scripts for additional software
+* [RapidKernel](https://github.com/Fullaxx/RapidKernel) - Scripts to compile your kernel
 
 ## File Tree
 ```
