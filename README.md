@@ -6,7 +6,7 @@ Modules can be added/removed on demand with the activate/deactivate scripts.
 
 ## Pre-Built ISO
 The easiest way to get started is to download and run on the pre-built ISO files. \
-These have all the necessary tools to [re-]build a RapidLinux project.
+RAPIDBUILD.iso and RAPIDWS.iso have the necessary tools to [re-]build a RapidLinux project.
 * [RAPIDINSTALL.iso](http://192.99.8.126/isos.html) has just the core module to install grub2 and the module layout to a HD
 * [RAPIDBUILD.iso](http://192.99.8.126/isos.html) has dev tools, but no GUI
 * [RAPIDWS.iso](http://192.99.8.126/isos.html) is a ~400MB image with dev tools and a fluxbox DE
