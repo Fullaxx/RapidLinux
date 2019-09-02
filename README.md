@@ -19,7 +19,7 @@ If you want to build this outside RapidLinux, You will need (at least) the follo
 * Any modern linux distro with dev tools
 * xz-utils and squashfs-tools for creating modules
 * mkisofs for creating ISOs
-* VM for testing ISOs (I prefer VirtualBox)
+* VM for testing ISOs (I prefer [VirtualBox](https://www.virtualbox.org/))
 * cdrecord/brasero/k3b for burning ISOs
 
 ## Installation & Deployment
@@ -27,7 +27,7 @@ Check out this repository and run rapidlinux_prepare.sh
 By default, it will make a tree in /opt/RL and fill it in with the necessary repositories.
 Make sure you have permission to write to /opt, if you keep the default location.
 When pulling software packages over curlftpfs, it might be slow.
-You can speed this up by using rsync (or similar) to download packages and make them local
+You can speed this up by using rsync (or similar) to download packages.
 
 ## Repositories
 * [RapidBuilds](https://github.com/Fullaxx/RapidBuilds) - Build scripts for the LiveCD
