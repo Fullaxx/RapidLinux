@@ -5,13 +5,13 @@ RapidLinux integrates a Slackware base with an AUFS root filesystem. \
 Modules can be added/removed on demand with the activate/deactivate scripts.
 
 ## Pre-Built ISO
-The easiest way to get started is to download and run on the pre-built ISO files. \
+The easiest way to get started is to download and run on the [pre-built ISO files](http://www.rapidlinux.org/). \
 RAPIDBUILD.iso and RAPIDWS.iso have the necessary tools to [re-]build a RapidLinux project.
-* [RAPIDINSTALL.iso](http://192.99.8.126/isos.html) has just the core module to install grub2 and the module layout to a HD
-* [RAPIDBUILD.iso](http://192.99.8.126/isos.html) has dev tools, but no GUI
-* [RAPIDWS.iso](http://192.99.8.126/isos.html) is a ~400MB image with dev tools and a fluxbox DE
-* [RAPIDFS.iso](http://192.99.8.126/isos.html) is a ~180MB image with samba and file-sharing tools
-* [RAPIDDOCKER.iso](http://192.99.8.126/isos.html) is a ~275MB image with docker and docker-compose
+* [RAPIDINSTALL.iso](http://www.rapidlinux.org/RAPIDINSTALL.iso) has just the core module to install a bootloader and the module layout to a HD
+* [RAPIDBUILD.iso](http://www.rapidlinux.org/RAPIDBUILD.iso) has dev tools, but no GUI
+* [RAPIDWS.iso](http://www.rapidlinux.org/RAPIDWS.iso) is a ~400MB image with dev tools and a fluxbox DE
+* [RAPIDFS.iso](http://www.rapidlinux.org/RAPIDFS.iso) is a ~230MB image with samba and file-sharing tools
+* [RAPIDDOCKER.iso](http://www.rapidlinux.org/RAPIDDOCKER.iso) is a ~220MB image with docker and docker-compose
 
 ## Using your own distro
 WARNING: This method has not been tested yet! \
