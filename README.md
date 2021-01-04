@@ -52,7 +52,7 @@ You can speed this up by using rsync (or similar) to download packages.
 
 ## License
 MIT License
->  Copyright (c) 2019 Brett Kuskie and RapidLinux contributors
+>  Copyright (c) 2021 Brett Kuskie and RapidLinux contributors
 >
 >  Permission is hereby granted, free of charge, to any person obtaining a copy
 >  of this software and associated documentation files (the "Software"), to deal
@@ -73,5 +73,5 @@ MIT License
 >  THE SOFTWARE.
 
 ## Enjoy RapidLinux!
-- Brett Kuskie, 2019
+- Brett Kuskie, 2021
 - [RapidLinux contributors](CONTRIBUTORS.md)
