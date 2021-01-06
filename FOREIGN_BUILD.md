@@ -2,6 +2,7 @@
 
 ## Ubuntu/Docker
 In some cases curlftpfs will not function properly w/o being in a privileged container. \
+Any insight into why the first run command is occasionally insufficient would be appreciated. \
 Launch an Ubuntu docker container using one of the following methods:
 ```
 docker run -it --rm -e TZ='Etc/UTC' -h ubuntu --name rlbuild --device /dev/fuse --cap-add SYS_ADMIN ubuntu:focal
