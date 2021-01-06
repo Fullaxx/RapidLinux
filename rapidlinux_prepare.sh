@@ -67,7 +67,7 @@ checkfuseconf()
     echo "We need user_allow_other to be enabled in /etc/fuse.conf"
     bail "sudo ./fix_fuse_conf.sh"
   fi
-  if ! grep -q "user_allow_other" /etc/fuse.conf ; then
+  if ! grep -q "^user_allow_other" /etc/fuse.conf ; then
     echo "We need user_allow_other to be enabled in /etc/fuse.conf"
     bail "sudo ./fix_fuse_conf.sh"
   fi
