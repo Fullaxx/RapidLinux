@@ -14,7 +14,7 @@ RAPIDBUILD.iso and RAPIDWS.iso have the necessary tools to [re-]build a RapidLin
 * [RAPIDDOCKER.iso](http://www.rapidlinux.org/RAPIDDOCKER.iso) is a ~220MB image with docker and docker-compose
 
 ## Using your own distro
-WARNING: Minimal testing has been done on this method! \
+**WARNING**: Minimal testing has been done on this method! \
 If you want to build this outside of RapidLinux, see [this page](https://github.com/Fullaxx/RapidLinux/blob/master/FOREIGN_BUILD.md)
 
 ## Installation & Deployment
