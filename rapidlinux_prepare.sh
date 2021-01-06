@@ -1,6 +1,8 @@
 #!/bin/bash
 
-FTPREPOHOST="rapidlinux.org"
+set -e
+
+FTPREPOHOST="pkgs.rapidlinux.org"
 
 # This will be the top-level RapidLinux directory
 # It will house the required repositories
@@ -10,7 +12,6 @@ RLDIR="/opt/RL"
 # /opt/RL
 # |-- RapidBuilds
 # |-- RapidModules
-# |-- isos
 # |-- packages
 # `-- output
 
@@ -74,7 +75,6 @@ checkfuseconf()
 
 trymkdirroot "${RLDIR}"
 trymkdir "${RLDIR}/packages"
-trymkdir "${RLDIR}/isos"
 trymkdir "${RLDIR}/output"
 
 cd ${RLDIR}
@@ -83,9 +83,13 @@ tryclone "RapidModules"
 tryclone "RapidBuilds"
 
 checkfuseconf
-trymount isos
 if [ ! -d /opt/RL/packages/acpi ]; then
   trymount packages
+fi
+
+if [ ! -f /usr/lib/liblinuxlive ]; then
+  cp -v /opt/RL/RapidBuilds/RapidBuild64/001-core/RLBFILES/rootcopy/usr/bin/{xzm2dir,dir2xzm,rl_xm} /usr/bin/
+  cp -v /opt/RL/RapidBuilds/RapidBuild64/001-core/RLBFILES/rootcopy/usr/lib/liblinuxlive /usr/lib/
 fi
 
 echo

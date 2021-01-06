@@ -14,13 +14,8 @@ RAPIDBUILD.iso and RAPIDWS.iso have the necessary tools to [re-]build a RapidLin
 * [RAPIDDOCKER.iso](http://www.rapidlinux.org/RAPIDDOCKER.iso) is a ~220MB image with docker and docker-compose
 
 ## Using your own distro
-WARNING: This method has not been tested yet! \
-If you want to build this outside RapidLinux, You will need (at least) the following:
-* Any modern linux distro with dev tools
-* xz-utils and squashfs-tools for creating modules
-* mkisofs for creating ISOs
-* VM for testing ISOs (I prefer [VirtualBox](https://www.virtualbox.org/))
-* cdrecord/brasero/k3b for burning ISOs
+WARNING: Minimal testing has been done on this method! \
+If you want to build this outside of RapidLinux, see [this page](https://github.com/Fullaxx/RapidLinux/blob/master/FOREIGN_BUILD.md)
 
 ## Installation & Deployment
 Check out this repository and run rapidlinux_prepare.sh
@@ -39,7 +34,6 @@ You can speed this up by using rsync (or similar) to download packages.
 /opt/RL
 |-- RapidBuilds
 |-- RapidModules
-|-- isos
 |-- packages
 `-- output
 ```

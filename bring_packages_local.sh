@@ -8,7 +8,7 @@
 
 set -e
 
-FTPREPOHOST="rapidlinux.org"
+FTPREPOHOST="pkgs.rapidlinux.org"
 
 cd /opt/RL
 
