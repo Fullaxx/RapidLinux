@@ -12,5 +12,6 @@ apt-get update
 apt-get install -y git curlftpfs squashfs-tools xz-utils cpio genisoimage
 git clone https://github.com/Fullaxx/RapidLinux.git
 cd RapidLinux
+./fix_fuse_conf.sh
 ./rapidlinux_prepare.sh
 ```
