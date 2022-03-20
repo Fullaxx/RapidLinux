@@ -82,8 +82,8 @@ cd ${RLDIR}
 tryclone "RapidModules"
 tryclone "RapidBuilds"
 
-checkfuseconf
 if [ ! -d /opt/RL/packages/acpi ]; then
+  checkfuseconf
   trymount packages
 fi
 
